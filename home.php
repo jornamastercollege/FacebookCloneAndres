@@ -5,17 +5,23 @@
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <?php 
+  include 'PHP/header.php';
+  ?>
+  
+
 </head>
 <body>
   <!-- nav -->
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">FaceClone</a>
+        <a class="navbar-brand" href="index.php">FaceClone</a>
       </div>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="profile.html">Profiel</a></li>
+        <li><a href="home.php">Home</a></li>
+        <li><a href="profile.php">Profiel</a></li>
         <li><a href="#">Uitloggen</a></li>
       </ul>
     </div>
@@ -114,7 +120,7 @@
   <!-- footer -->
   <footer class="container text-center">
     <ul class="nav nav-pills pull-right">
-      <li>FaceClone - Door <a href="https://www.dewebmeester.nl">dewebmeester.nl</a> - onderdeel van het Webmaster College programma.</li>
+      <li>FaceClone - Door Andrés Bechger - onderdeel van het Webmaster College programma.</li>
     </ul>
   </footer>
   <!-- ./footer -->
