@@ -2,7 +2,9 @@
 <html>
 <head>
   <title>FaceClone</title>
-
+  
+  <script src="js/jquery.js"/>  
+  <script src="js/bootstrap.min.js"/>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
