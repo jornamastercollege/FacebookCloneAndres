@@ -5,17 +5,22 @@
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <?php 
+  include 'PHP/header.php';
+  ?>
+
 </head>
 <body>
   <!-- nav -->
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">FaceClone</a>
+        <a class="navbar-brand" href="index.php">FaceClone</a>
       </div>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="profile.html">Profile</a></li>
+        <li><a href="home.php">Home</a></li>
+        <li><a href="profile.php">Profile</a></li>
         <li><a href="#">Logout</a></li>
       </ul>
     </div>
@@ -31,7 +36,7 @@
   <!-- footer -->
   <footer class="container text-center">
     <ul class="nav nav-pills pull-right">
-      <li>FaceClone - Made by [your name here]</li>
+      <li>FaceClone - Made by Andrés Bechger</li>
     </ul>
   </footer>
   <!-- ./footer -->

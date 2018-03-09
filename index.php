@@ -5,13 +5,18 @@
 
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <?php 
+  include 'PHP/header.php';
+  ?>
+
 </head>
 <body>
   <!-- nav -->
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">FaceClone</a>
+        <a class="navbar-brand" href="index.php">FaceClone</a>
       </div>
     </div>
   </nav>
@@ -26,7 +31,7 @@
         <h4>Login om te beginnen.</h4>
 
         <!-- login form -->
-        <form method="post" action="home.html">
+        <form method="post" action="home.php">
           <div class="form-group">
             <input class="form-control" type="text" name="username" placeholder="Username">
           </div>
@@ -45,7 +50,7 @@
         <h4>Nog geen account? Meldt je aan.</h4>
 
         <!-- register form -->
-        <form method="post" action="home.html">
+        <form method="post" action="home.php">
           <div class="form-group">
             <input class="form-control" type="text" name="username" placeholder="Username">
           </div>
@@ -71,7 +76,7 @@
   <!-- footer -->
   <footer class="container text-center">
     <ul class="nav nav-pills pull-right">
-      <li>FaceClone - Door <a href="https://www.dewebmeester.nl">dewebmeester.nl</a> - onderdeel van het Webmaster College programma.</li>
+      <li>FaceClone - Door Andrés Bechger - onderdeel van het Webmaster College programma.</li>
     </ul>
   </footer>
   <!-- ./footer -->
